@@ -7,8 +7,8 @@ pacman -S xorg-server
 pacman -S mesa
 curl -O https://raw.githubusercontent.com/huduzhu/archlinux/main/vmwaretools.service
 nano vmwaretools.service
-mv vmwaretools.service /etc/systemd/system/vmwaretools.service
 for x in {0..6}; do mkdir -p /etc/init.d/rc${x}.d; done
+mv vmwaretools.service /etc/systemd/system/vmwaretools.service
 mount /dev/cdrom /mnt
 tar xf /mnt/VMwareTools*.tar.gz -C /root
 perl /root/vmware-tools-distrib/vmware-install.pl

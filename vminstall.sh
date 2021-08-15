@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-sudo su
+
 timedatectl set-timezone Australia/Victoria
 systemctl enable systemd-timesyncd
 pacman -S intel-ucode

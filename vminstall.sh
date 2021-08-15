@@ -13,6 +13,7 @@ mount /dev/cdrom /mnt
 tar xf /mnt/VMwareTools*.tar.gz -C /root
 perl /root/vmware-tools-distrib/vmware-install.pl
 pacman -S virtualbox-guest-utils xf86-video-vmware
+systemctl enable vmwaretools.service  
 sudo pacman -S gnome-tweaks
 sudo pacman -S gnome --ignore=gnome-backgrounds --ignore=gnome-books --ignore=gnome-clocks --ignore=gnome-color-manager --ignore=gnome-contacts --ignore=gnome-documents --ignore=gnome-maps --ignore=gnome-music --ignore=gnome-photos --ignore=gnome-software --ignore=gnome-themes-extra --ignore=gnome-weather --ignore=orca --ignore=totem --ignore=yelp
 sudo systemctl enable gdm

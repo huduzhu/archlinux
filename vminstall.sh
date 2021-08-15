@@ -14,6 +14,6 @@ tar xf /mnt/VMwareTools*.tar.gz -C /root
 perl /root/vmware-tools-distrib/vmware-install.pl
 pacman -S virtualbox-guest-utils xf86-video-vmware
 sudo pacman -S gnome-tweaks
-sudo pacman -S gnome --ignore=gnome-backgrounds --ignore=gnome-books --ignore=gnome-clocks --ignore=gnome-color-manager --ignore=gnome-contacts --ignore=gnome-documents --ignore=gnome-maps --ignore=gnome-music --ignore=gnome-photos --ignore=gnome-software --ignore=gnome-themes-extra --ignore=gnome-weather --ignore=orca --ignore=totem --ignore=yelp --noconfirm
+sudo pacman -S gnome --ignore=gnome-backgrounds --ignore=gnome-books --ignore=gnome-clocks --ignore=gnome-color-manager --ignore=gnome-contacts --ignore=gnome-documents --ignore=gnome-maps --ignore=gnome-music --ignore=gnome-photos --ignore=gnome-software --ignore=gnome-themes-extra --ignore=gnome-weather --ignore=orca --ignore=totem --ignore=yelp
 sudo systemctl enable gdm
 pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts

@@ -5,7 +5,8 @@ systemctl enable systemd-timesyncd
 pacman -S intel-ucode
 pacman -S xorg-server
 pacman -S mesa
-curl -O - https://raw.githubusercontent.com/huduzhu/archlinux/main/vmautostart | nano
+curl -O https://raw.githubusercontent.com/huduzhu/archlinux/main/vmautostart
+nano vmautostart
 for x in {0..6}; do mkdir -p /etc/init.d/rc${x}.d; done
 mount /dev/cdrom /mnt
 tar xf /mnt/VMwareTools*.tar.gz -C /root

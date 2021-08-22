@@ -1,8 +1,7 @@
 #! /usr/bin/bash
 
-sudo su
 timedatectl set-timezone Australia/Victoria
-systemctl enable systemd-timesyncd
+sudo systemctl enable systemd-timesyncd
 pacman -Syu
 pacman -S intel-ucode xorg-server mesa
 curl -O https://raw.githubusercontent.com/huduzhu/archlinux/main/vmwaretools.service
@@ -21,4 +20,3 @@ pacman -S pavucontrol
 sudo pacman -S lxdm
 sudo systemctl enable lxdm
 pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts
-exit

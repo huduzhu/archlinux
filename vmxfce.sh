@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 timedatectl set-timezone Australia/Victoria
-sudo systemctl enable systemd-timesyncd
+systemctl enable systemd-timesyncd
 pacman -Sy
 pacman -Syu
 pacman -S intel-ucode xorg-server mesa

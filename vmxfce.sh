@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
-sudo timedatectl set-timezone Australia/Victoria
+sudo pacman -Syu
+timedatectl set-timezone Australia/Victoria
 systemctl enable systemd-timesyncd
 pacman -S intel-ucode xorg-server mesa
 curl -O https://raw.githubusercontent.com/huduzhu/archlinux/main/vmwaretools.service

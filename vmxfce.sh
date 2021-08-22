@@ -12,9 +12,10 @@ tar xf /mnt/VMwareTools*.tar.gz -C /root
 perl /root/vmware-tools-distrib/vmware-install.pl
 pacman -S virtualbox-guest-utils xf86-video-vmware
 systemctl enable vmwaretools.service  
-pacman -S xfce4 gvfs-smb xfce4-pulseaudio-plugin pulseaudio-alsa pavucontrol openssh
-sudo pacman -S lightdm lightdm-gtk-greeter
-sudo systemctl enable lightdm
+pacman -S xfce4 gvfs-smb xfce4-pulseaudio-plugin pulseaudio-alsa openssh
+pacman -S pavucontrol
+#sudo pacman -S lightdm lightdm-gtk-greeter
+#sudo systemctl enable lightdm
 sudo pacman -S lxdm
 sudo systemctl enable lxdm
 pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts

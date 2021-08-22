@@ -1,1 +1,1 @@
-sudo pacman -S fcitex-googlepinyin firefox
+sudo pacman -S fcitex-googlepinyin firefox vlc

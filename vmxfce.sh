@@ -20,4 +20,5 @@ pacman -S pavucontrol
 #sudo systemctl enable lightdm
 sudo pacman -S lxdm
 sudo systemctl enable lxdm
+nano /etc/lxdm/lxdm.conf
 pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts

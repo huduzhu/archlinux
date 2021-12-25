@@ -1,3 +1,3 @@
-sudo pacman -S fcitx-im fcitx-configtool fcitex-googlepinyin firefox vlc xbindkeys xdotool
+sudo pacman -S fcitx-im fcitx-configtool fcitex-googlepinyin firefox vlc xbindkeys xdotool tigervnc
 nano .xbindkeysrc
 xbindkeys -d > .xbindkeysrc

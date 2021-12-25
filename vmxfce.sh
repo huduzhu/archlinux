@@ -23,3 +23,4 @@ sudo systemctl enable lxdm
 nano /etc/lxdm/lxdm.conf
 pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts
 pacman -S fcitx-googlepinyin fcitx-cloudpinyin
+#curl -OL https://raw.githubusercontent.com/huduzhu/archlinux/master/install.sh
